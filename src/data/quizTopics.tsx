@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 import { ReactComponent as Blocks } from '../assets/icons/blocks.svg'
-import { ReactComponent as BulbIcon } from '../assets/icons/bulb.svg'
 import { ReactComponent as Programming } from '../assets/icons/programming.svg'
 import { ReactComponent as Technology } from '../assets/icons/technology.svg'
+import { ReactComponent as Python } from '../assets/icons/python.svg'
 
 type QuizTopic = {
   title: string
@@ -23,4 +23,8 @@ export const quizTopics: QuizTopic[] = [
     title: 'Технологии будущего',
     icon: <Technology />,
   },
+  {
+    title: 'Основы Python',
+    icon: <Python />,
+  }
 ]
