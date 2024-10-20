@@ -6,8 +6,8 @@
 import { Topic } from '.'
 import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
 
-export const react: Topic = {
-  topic: 'React',
+export const programmingBasics: Topic = {
+  topic: 'Основы программирования',
   level: 'Intermediate',
   totalQuestions: 8,
   totalScore: 80,

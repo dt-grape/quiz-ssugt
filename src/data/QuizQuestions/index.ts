@@ -2,6 +2,9 @@ import { generalKnowledge } from './generalKnowledge'
 import { javascript } from './javascript'
 import { python } from './python'
 import { react } from './react'
+import { programmingBasics } from './programmingBasics'
+import { programmingIRL } from './programmingIRL'
+import { futureTechnology } from './futureTechnology'
 
 // Question Types
 // 1. MCQs | Multiple Choice | single
@@ -31,8 +34,7 @@ export type Topic = {
 }
 
 export const quiz: Record<string, Topic> = {
-  JavaScript: javascript,
-  React: react,
-  Python: python,
   'General Knowledge': generalKnowledge,
+  'Основы программирования': programmingBasics,
+  'Программирование в реальной жизни': programmingIRL,
 }
